@@ -1,6 +1,6 @@
 const divPrincipal = document.querySelector(".divPrincipal");
-const urlSuelo = "/assets/molebuster.webp";
-const urlDigglet = "/assets/molebuster.webp";
+const urlSuelo = "/assets/assets/miau.gif";
+const urlDigglet = "/assets/assets/digglet.webp";
 const botonJugar = document.querySelector(".botonJugar");
 let puntuacion = 0;
 
@@ -61,7 +61,7 @@ const jugar = () => {
                 if (i < 10) {
     
                     cambiarContador.textContent = "00:0" + i;
-                    cambiarContador.style = "color: white";
+                    cambiarContador.style = "color: red";
     
                 } else {
     
@@ -94,7 +94,7 @@ const mazazo = (suelo) => {
 
     if (suelo.className.includes("digglet")) {
         
-        puntuacion += 2;
+        puntuacion += 1;
             
         let actualizarPuntuacion = document.querySelector(".puntuacion");
         actualizarPuntuacion.textContent = ("Puntuación: " + puntuacion);
@@ -106,13 +106,13 @@ const mazazo = (suelo) => {
 
 const comprobacion = () => {
 
-    if (puntuacion >= 100) {
+    if (puntuacion >= 5) {
         
-        divPrincipal.innerHTML = `<div class="resultado"><img src="./assets/skarmory.gif"/><h3>GANADOR, ERES UN POKEMON</h3></div>`;
+        divPrincipal.innerHTML = `<div class="resultado"><img src="./assets/assets/skarmory.gif"/><h3>GANADOR, ERES UN POKEMON</h3></div>`;
 
     } else {
 
-        divPrincipal.innerHTML = `<div class="resultado"><img src="./assets/Squirtle.gif"/><h3>DERROTA, MEJOR VETE A SEGUIR PROGRAMANDO</h3></div>`;
+        divPrincipal.innerHTML = `<div class="resultado"><img src="./assets/assets/Squirtle.gif"/><h3>DERROTA, MEJOR VETE A SEGUIR PROGRAMANDO</h3></div>`;
 
     }
 

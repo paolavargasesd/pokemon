@@ -10,7 +10,7 @@
 body {
 
     font-family: VT323;
-    background-image: url(/assets/pokemonito.gif);
+    background-image: url(/assets/assets/wao.gif);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -32,8 +32,11 @@ nav ul li {
     text-decoration: none;
     background-color: rgb(177, 66, 66);
     padding: 10px;
+    width: 160px;
     border-radius: 20px;
     border: solid 2px black;
+    transform: translateX(40%);
+    text-align: center;
 
 }
 
@@ -57,7 +60,7 @@ nav ul li {
 }
 
 .cabecera {
-     transform: translateX(-100%);
+     transform: translateX(-150%);
     display: flex;
     justify-content: center;
     margin-right: 15%;
@@ -69,9 +72,14 @@ nav ul li {
 
     text-align: center;
   margin-right: 10%;
+  
+
 
 
 }
+
+
+
 
 .divEnglobador {
 
@@ -88,7 +96,7 @@ nav ul li {
     justify-content: center;
     max-width: 500px;
 
-    cursor: url("/assets/hammer.png"), auto;
+    cursor: url("/assets/assets/hammer.png"), auto;
 
 }
 
@@ -114,12 +122,14 @@ nav ul li {
 
 .botonJugar {
 
-    width: 100px;
+    transform: translatex(1%);
+    width: 400px;
     height: 50px;
     border-radius: 20px;
     border: none;
     border: solid black 3px;
     background-color: rgb(233, 97, 97);
+    
 
 }
 
@@ -133,6 +143,7 @@ nav ul li {
 
 .botonJugar p {
 
+    
     font-family: VT323;
     font-size: 30px;
 }
@@ -148,12 +159,15 @@ nav ul li {
 }
 
 .contador {
-
-    margin-left: 10px;
+    transform: translateY(120%);
+    
+    margin-left: -250px;
     font-size: 45px;
     color: white;
 
 }
+
+
 
 .divPuntuacion {
     color: white;
@@ -166,7 +180,7 @@ nav ul li {
 }
 
 .divPuntuacion p {
-
+    transform: translateY(-100%);
     color: white;
     font-size: 45px;
 
@@ -184,12 +198,20 @@ nav ul li {
 .resultado img {
 
     width: 200px;
+    transform: translateY(-70%);
+    
 
 }
 
 .resultado h3 {
 
+     transform: translateY(-80%);
     font-size: 50px;
     color: white;
 
+}
+
+.juego{
+    transform: translateY(-25%);
+    
 }
