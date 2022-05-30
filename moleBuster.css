@@ -10,7 +10,7 @@
 body {
 
     font-family: VT323;
-    background-image: url(/assets/assets/wao.gif);
+    background-image: url(/assets/assets/game.avif);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -180,7 +180,7 @@ nav ul li {
 }
 
 .divPuntuacion p {
-    transform: translateY(-100%);
+    transform: translateY(-260%);
     color: white;
     font-size: 45px;
 
