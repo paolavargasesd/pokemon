@@ -10,7 +10,7 @@
 body {
 
     font-family: VT323;
-    background-image: url(/assets/assets/game.avif);
+    background:rgb(177, 66, 66);
     background-size: cover;
     background-attachment: fixed;
    
