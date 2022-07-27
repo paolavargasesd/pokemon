@@ -41,7 +41,7 @@ const jugar = () => {
 
     let anterior = 0;
 
-    for (let i = 5; i >= 0; i--) {
+    for (let i = 7; i >= 0; i--) {
 
         let random = Math.floor(Math.random()*9);
 
