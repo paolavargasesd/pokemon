@@ -10,7 +10,7 @@
 body {
 
     font-family: VT323;
-    background:rgb(177, 66, 66);
+    background-color: rgb(192, 223, 250);
     background-size: cover;
     background-attachment: fixed;
    
@@ -18,6 +18,22 @@ body {
 
 }
 
+  .sound-cloud {
+    font-size: 1.2rem;
+    margin: 7px;
+    color: #f50057;
+  }
+  .on-off {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  #off {
+    color: #f50057;
+  }
+  #on {
+    display: none;
+    color: #08fdd8;
+  }
 nav ul{
 
     display: flex;
@@ -36,7 +52,7 @@ nav ul li {
     width: 160px;
     border-radius: 20px;
     border: solid 2px black;
-    transform: translateX(40%);
+    transform: translateX(60%);
     text-align: center;
 
 }
